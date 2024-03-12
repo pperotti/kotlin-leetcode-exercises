@@ -1,4 +1,6 @@
-package problems
+package problems.leetcode.mtci
+
+import problems.Problem
 
 /**
  * ARRAYS PROBLEMS: Container with Most Water.

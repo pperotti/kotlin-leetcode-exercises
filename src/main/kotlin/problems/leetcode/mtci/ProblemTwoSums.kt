@@ -1,5 +1,6 @@
-package problems
+package problems.leetcode.mtci
 
+import problems.Problem
 import utils.printContents
 
 /**
