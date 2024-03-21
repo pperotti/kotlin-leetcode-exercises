@@ -19,6 +19,14 @@ class Example1 : Problem {
         println("Max Length: $answer")
     }
 
+    /*
+    Given a subarray starting at left and ending at right,
+    the length is right - left + 1. As mentioned before,
+    this algorithm has a time complexity of O(n) since all
+    work done inside the for loop is amortized O(1), where n
+    is the length of nums. The space complexity is constant
+    because we are only using 3 integer variables.
+     */
     private fun findLength(nums: IntArray, k: Int): Int {
 
         var left = 0
