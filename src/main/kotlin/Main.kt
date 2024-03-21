@@ -1,4 +1,4 @@
-import problems.leetcode.das.arraysnstrings.slidingwindow.Example1
+import problems.leetcode.das.arraysnstrings.slidingwindow.Example2
 
 fun main() {
     //ProblemTwoSums().execute()
@@ -6,5 +6,6 @@ fun main() {
     //ProblemTrappingRainWater().execute()
     //ProblemReverseString().execute()
     //ProblemSquaresOfSortedArray().execute()
-    Example1().execute()
+    //Example1().execute()
+    Example2().execute()
 }

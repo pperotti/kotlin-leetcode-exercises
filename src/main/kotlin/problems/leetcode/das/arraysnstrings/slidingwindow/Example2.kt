@@ -14,6 +14,28 @@ import problems.Problem
  */
 class Example2 : Problem {
     override fun execute() {
-        TODO("Not yet implemented")
+        val chain = "1101100111"
+        println("Answer: ${findLength(chain)}")
+    }
+
+    private fun findLength(s: String): Int {
+        var left = 0
+        var curr = 0 // How many '0' we have in the string
+        var ans = 0
+
+        for (right in 0..s.length-1) {
+            if (s.elementAt(right) == '0') {
+                curr++
+            }
+            while (curr > 1) {
+                if (s.elementAt(left) == '0') {
+                    curr--
+                }
+                left++
+            }
+            ans = Math.max(ans, right-left+1)
+        }
+
+        return ans
     }
 }
