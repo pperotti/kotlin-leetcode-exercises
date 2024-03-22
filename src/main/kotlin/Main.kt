@@ -1,3 +1,4 @@
+import problems.leetcode.das.arraysnstrings.ProblemMaximumAverageSubarray
 import problems.leetcode.das.arraysnstrings.slidingwindow.Example2
 import problems.leetcode.das.arraysnstrings.slidingwindow.Example3
 import problems.leetcode.das.arraysnstrings.slidingwindow.Example4
@@ -11,7 +12,8 @@ fun main() {
     //Example1().execute()
     //Example2().execute()
     //Example3().execute()
-    Example4().execute()
+    //Example4().execute()
+    ProblemMaximumAverageSubarray().execute()
 }
 /*
 public int findBestSubarray(int[] nums, int k) {
