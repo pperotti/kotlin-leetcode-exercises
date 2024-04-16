@@ -9,7 +9,7 @@ import problems.Problem
  * parts so that the first section has a sum greater than or equal to the sum of the
  * second section. The second section should have at least one number.
  */
-class Example2 : Problem {
+class PrefixSumExample2 : Problem {
     override fun execute() {
         val nums = intArrayOf(1, 6, 3, 2, 7, 2)
         println("Nums: ${nums.contentToString()}")

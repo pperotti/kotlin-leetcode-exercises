@@ -14,7 +14,7 @@ import problems.Problem
  * and limit = 13, the answer is [true, false, true]. For each query, the subarray
  * sums are [12, 14, 12].
  */
-class Example1 : Problem {
+class PrefixSumExample1 : Problem {
     override fun execute() {
         val nums = intArrayOf(1, 6, 3, 2, 7, 2)
         val queries = arrayOf(intArrayOf(0,3), intArrayOf(2,5), intArrayOf(2,4))
