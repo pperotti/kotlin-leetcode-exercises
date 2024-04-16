@@ -7,7 +7,7 @@ import problems.Problem
  * find the sum of the subarray with the largest sum whose
  * length is k.
  */
-class Example4 : Problem {
+class SlidingWindowExample4 : Problem {
     override fun execute() {
         val nums = intArrayOf(-3, -1, 4, 12, -8, 5, 6)
         val k = 4

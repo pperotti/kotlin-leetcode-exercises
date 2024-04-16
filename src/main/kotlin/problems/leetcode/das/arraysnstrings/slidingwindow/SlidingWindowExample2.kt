@@ -12,7 +12,7 @@ import problems.Problem
  * If you perform the flip at index 2, the string becomes
  * 1111100111.
  */
-class Example2 : Problem {
+class SlidingWindowExample2 : Problem {
     override fun execute() {
         val chain = "1101100111"
         println("Answer: ${findLength(chain)}")

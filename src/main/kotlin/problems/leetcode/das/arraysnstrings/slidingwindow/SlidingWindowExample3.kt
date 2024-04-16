@@ -16,7 +16,7 @@ import problems.Problem
  * The subarrays with products less than k are:
  * [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6]
  */
-class Example3 : Problem {
+class SlidingWindowExample3 : Problem {
     override fun execute() {
         val nums = intArrayOf(10, 5, 2, 6)
         val k = 100

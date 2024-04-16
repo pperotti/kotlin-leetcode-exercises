@@ -10,7 +10,7 @@ import problems.Problem
  * This is the problem we have been talking about above.
  * We will now formally solve it.
  */
-class Example1 : Problem {
+class SlidingWindowExample1 : Problem {
     override fun execute() {
         val k = 8
         val numbers : IntArray = intArrayOf(3, 1, 2, 7, 4, 2, 1, 1, 5)
