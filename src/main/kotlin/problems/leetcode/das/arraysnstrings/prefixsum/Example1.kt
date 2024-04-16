@@ -20,9 +20,9 @@ class Example1 : Problem {
         val queries = arrayOf(intArrayOf(0,3), intArrayOf(2,5), intArrayOf(2,4))
         val limit = 13
         val answer = answerQueries(nums, queries, limit)
-        System.out.println("Nums: ${nums.contentToString()} Limit: $limit")
-        System.out.println("Queries: ${queries.contentDeepToString()}")
-        System.out.println("Answer: ${answer.contentToString()}")
+        println("Nums: ${nums.contentToString()} Limit: $limit")
+        println("Queries: ${queries.contentDeepToString()}")
+        println("Answer: ${answer.contentToString()}")
     }
 
     private fun answerQueries(nums: IntArray, queries: Array<IntArray>, limit: Int) : BooleanArray {
