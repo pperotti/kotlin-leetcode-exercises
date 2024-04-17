@@ -24,6 +24,10 @@ class ProblemMaxConsecutiveOnesIII : Problem {
         println("Max: $answer")
     }
 
+    /**
+     * This solutions has RUNTIME of O(n) and SPACE: O(1). This solution is better than the
+     * one below.
+     */
     private fun longestOnes(nums: IntArray, k: Int): Int {
         var left = 0
         var right = 0
