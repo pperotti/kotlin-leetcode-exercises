@@ -1,3 +1,4 @@
+import problems.leetcode.das.arraysnstrings.ProblemMinimumValueToGetPositiveStepByStepSum
 import problems.leetcode.das.arraysnstrings.ProblemSumOf1dArray
 
 //import problems.leetcode.das.arraysnstrings.slidingwindow.Example2
@@ -16,5 +17,6 @@ fun main() {
     //ProblemMaxConsecutiveOnesIII().execute()
     //Example1().execute()
     //Example2().execute()
-    ProblemSumOf1dArray().execute()
+    //ProblemSumOf1dArray().execute()
+    ProblemMinimumValueToGetPositiveStepByStepSum().execute()
 }
