@@ -1,3 +1,4 @@
+import problems.leetcode.das.arraysnstrings.ProblemKRadiusSubarrayAverages
 import problems.leetcode.das.arraysnstrings.ProblemMinimumValueToGetPositiveStepByStepSum
 import problems.leetcode.das.arraysnstrings.ProblemSumOf1dArray
 
@@ -18,5 +19,6 @@ fun main() {
     //Example1().execute()
     //Example2().execute()
     //ProblemSumOf1dArray().execute()
-    ProblemMinimumValueToGetPositiveStepByStepSum().execute()
+    //ProblemMinimumValueToGetPositiveStepByStepSum().execute()
+    ProblemKRadiusSubarrayAverages().execute()
 }
