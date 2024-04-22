@@ -1,4 +1,4 @@
-package problems.leetcode.das.arraysnstrings
+package problems.leetcode.das.arraysnstrings.twopointers
 
 import problems.Problem
 
@@ -9,7 +9,7 @@ import problems.Problem
  *
  * You must do this by modifying the input array in-place with O(1) extra memory.
  */
-class ProblemReverseString : Problem {
+class TwoPointersReverseString : Problem {
 
     override fun execute() {
         // If we use ArrayList

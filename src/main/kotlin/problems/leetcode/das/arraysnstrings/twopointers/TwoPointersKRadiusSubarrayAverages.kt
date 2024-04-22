@@ -1,8 +1,8 @@
-package problems.leetcode.das.arraysnstrings
+package problems.leetcode.das.arraysnstrings.twopointers
 
 import problems.Problem
 
-class ProblemKRadiusSubarrayAverages : Problem {
+class TwoPointersKRadiusSubarrayAverages : Problem {
     override fun execute() {
 
         val nums = IntArray(100000)

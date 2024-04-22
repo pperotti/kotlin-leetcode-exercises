@@ -1,7 +1,4 @@
-import problems.leetcode.das.arraysnstrings.ProblemKRadiusSubarrayAverages
-import problems.leetcode.das.arraysnstrings.ProblemMinimumValueToGetPositiveStepByStepSum
-import problems.leetcode.das.arraysnstrings.ProblemReverseWordsInAStringIII
-import problems.leetcode.das.arraysnstrings.ProblemSumOf1dArray
+import problems.leetcode.das.arraysnstrings.twopointers.TwoPointersReverseWordsInAStringIII
 
 //import problems.leetcode.das.arraysnstrings.slidingwindow.Example2
 
@@ -22,5 +19,5 @@ fun main() {
     //ProblemSumOf1dArray().execute()
     //ProblemMinimumValueToGetPositiveStepByStepSum().execute()
     //ProblemKRadiusSubarrayAverages().execute()
-    ProblemReverseWordsInAStringIII().execute()
+    TwoPointersReverseWordsInAStringIII().execute()
 }

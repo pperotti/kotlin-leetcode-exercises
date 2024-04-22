@@ -1,4 +1,4 @@
-package problems.leetcode.das.arraysnstrings
+package problems.leetcode.das.arraysnstrings.twopointers
 
 import problems.Problem
 
@@ -9,7 +9,7 @@ import problems.Problem
  *
  * https://leetcode.com/problems/reverse-words-in-a-string-iii/description/
  */
-class ProblemReverseWordsInAStringIII : Problem {
+class TwoPointersReverseWordsInAStringIII : Problem {
     override fun execute() {
         val expression = "Let's take LeetCode contest"
         println("Expression: $expression")

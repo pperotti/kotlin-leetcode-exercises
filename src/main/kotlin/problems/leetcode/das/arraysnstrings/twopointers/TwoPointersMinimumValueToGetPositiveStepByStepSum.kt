@@ -1,7 +1,6 @@
-package problems.leetcode.das.arraysnstrings
+package problems.leetcode.das.arraysnstrings.twopointers
 
 import problems.Problem
-import kotlin.random.Random
 
 /**
  * Given an array of integers nums, you start with an initial positive
@@ -17,7 +16,7 @@ import kotlin.random.Random
  * positive! which means that it is OK to start with the
  * minimum positive value available which is 1.
  */
-class ProblemMinimumValueToGetPositiveStepByStepSum : Problem {
+class TwoPointersMinimumValueToGetPositiveStepByStepSum : Problem {
     override fun execute() {
         //val nums = intArrayOf(-3,2,-3,4,2)
         //val nums = intArrayOf(1,2)
