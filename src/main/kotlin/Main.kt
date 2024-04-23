@@ -1,5 +1,6 @@
 import problems.leetcode.das.hashing.CheckingForExistenceExample3UniqueNumbers
 import problems.leetcode.das.hashing.HashingCheckifSentenceIsPangram
+import problems.leetcode.das.hashing.HashingMissingNumber
 
 //import problems.leetcode.das.arraysnstrings.slidingwindow.Example2
 
@@ -23,5 +24,6 @@ fun main() {
     //TwoPointersReverseWordsInAStringIII().execute()
     //CheckingForExistenceExample2LetterToAppearTwice().execute()
     //CheckingForExistenceExample3UniqueNumbers().execute()
-    HashingCheckifSentenceIsPangram().execute()
+    //HashingCheckifSentenceIsPangram().execute()
+    HashingMissingNumber().execute()
 }
