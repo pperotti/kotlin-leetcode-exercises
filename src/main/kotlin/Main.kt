@@ -1,4 +1,5 @@
-import problems.leetcode.das.arraysnstrings.twopointers.TwoPointersReverseWordsInAStringIII
+import problems.leetcode.das.hashing.CheckingForExistenceExample3UniqueNumbers
+import problems.leetcode.das.hashing.HashingCheckifSentenceIsPangram
 
 //import problems.leetcode.das.arraysnstrings.slidingwindow.Example2
 
@@ -19,5 +20,8 @@ fun main() {
     //ProblemSumOf1dArray().execute()
     //ProblemMinimumValueToGetPositiveStepByStepSum().execute()
     //ProblemKRadiusSubarrayAverages().execute()
-    TwoPointersReverseWordsInAStringIII().execute()
+    //TwoPointersReverseWordsInAStringIII().execute()
+    //CheckingForExistenceExample2LetterToAppearTwice().execute()
+    //CheckingForExistenceExample3UniqueNumbers().execute()
+    HashingCheckifSentenceIsPangram().execute()
 }
