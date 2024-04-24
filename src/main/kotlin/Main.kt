@@ -1,5 +1,6 @@
 import problems.leetcode.das.hashing.CheckingForExistenceExample3UniqueNumbers
 import problems.leetcode.das.hashing.CountingExample1
+import problems.leetcode.das.hashing.CountingExample2
 import problems.leetcode.das.hashing.HashingCheckifSentenceIsPangram
 import problems.leetcode.das.hashing.HashingCountingNumbers
 import problems.leetcode.das.hashing.HashingMissingNumber
@@ -29,5 +30,6 @@ fun main() {
     //HashingCheckifSentenceIsPangram().execute()
     //HashingMissingNumber().execute()
     //HashingCountingNumbers().execute()
-    CountingExample1().execute()
+    //CountingExample1().execute()
+    CountingExample2().execute()
 }
