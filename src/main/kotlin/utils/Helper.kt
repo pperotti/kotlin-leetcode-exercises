@@ -10,3 +10,10 @@ fun printContents(solution: IntArray) {
         println(solution.contentToString())
     }
 }
+
+fun printContents(map: Map<Int, IntArray>) {
+    println("Map Content: ")
+    map.forEach { (i, ints) ->
+        println("$i -> ${ints.contentToString()}")
+    }
+}

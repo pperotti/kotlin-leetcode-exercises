@@ -1,6 +1,7 @@
 import problems.leetcode.das.hashing.CountingExample3
 import problems.leetcode.das.hashing.CountingExample4
 import problems.leetcode.das.hashing.CountingExample5
+import problems.leetcode.das.hashing.HashingFindPlayersWithZeroOrOneLosses
 
 //import problems.leetcode.das.arraysnstrings.slidingwindow.Example2
 
@@ -31,5 +32,6 @@ fun main() {
     //CountingExample2().execute()
     //CountingExample3().execute()
     //CountingExample4().execute()
-    CountingExample5().execute()
+    //CountingExample5().execute()
+    HashingFindPlayersWithZeroOrOneLosses().execute()
 }
