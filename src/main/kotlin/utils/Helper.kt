@@ -20,6 +20,13 @@ fun printContents(map: Map<Int, IntArray>) {
     }
 }
 
+fun printIntMapContents(map: Map<Int, List<Int>>) {
+    println("Map Content: ")
+    map.forEach { (i, list) ->
+        println("$i -> $list")
+    }
+}
+
 fun readContentsFromFile(): IntArray {
     val contents = mutableListOf<Int>()
     val file = File("src/main/resources/content.txt")
