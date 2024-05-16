@@ -1,5 +1,6 @@
 import problems.leetcode.das.hashing.HashingContinousArray
 import problems.leetcode.das.hashing.HashingMaximumNumberOfBalloons
+import problems.leetcode.das.hashing.MoreHashingExample1
 
 fun main() {
     //ProblemTwoSums().execute()
@@ -33,4 +34,5 @@ fun main() {
     //HashingLargestUniqueNumber().execute()
     //HashingMaximumNumberOfBalloons().execute()
     HashingContinousArray().execute()
+    MoreHashingExample1().execute()
 }
