@@ -1,3 +1,4 @@
+import problems.leetcode.das.hashing.HashingJewelsAndStones
 import problems.leetcode.das.hashing.HashingRansomNote
 import problems.leetcode.das.hashing.MoreHashingExample3
 import problems.leetcode.das.hashing.MoreHashingExample4
@@ -39,5 +40,6 @@ fun main() {
     //MoreHashingExample3().execute()
     //MoreHashingExample3().execute()
     //MoreHashingExample4().execute()
-    HashingRansomNote().execute()
+    //HashingRansomNote().execute()
+    HashingJewelsAndStones().execute()
 }
