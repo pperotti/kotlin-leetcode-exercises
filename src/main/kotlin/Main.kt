@@ -1,4 +1,5 @@
 import problems.leetcode.das.hashing.MoreHashingExample3
+import problems.leetcode.das.hashing.MoreHashingExample4
 
 fun main() {
     //ProblemTwoSums().execute()
@@ -35,5 +36,6 @@ fun main() {
     //MoreHashingExample1().execute()
     //MoreHashingExample2().execute()
     //MoreHashingExample3().execute()
-    MoreHashingExample3().execute()
+    //MoreHashingExample3().execute()
+    MoreHashingExample4().execute()
 }
