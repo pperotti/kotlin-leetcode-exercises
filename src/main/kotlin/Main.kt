@@ -1,8 +1,4 @@
-import problems.leetcode.das.hashing.HashingJewelsAndStones
-import problems.leetcode.das.hashing.HashingLongestSubstringWithoutRepeatingCharacters
-import problems.leetcode.das.hashing.HashingRansomNote
-import problems.leetcode.das.hashing.MoreHashingExample3
-import problems.leetcode.das.hashing.MoreHashingExample4
+import problems.leetcode.das.linkedlist.LinkedListExample
 
 fun main() {
     //ProblemTwoSums().execute()
@@ -43,5 +39,6 @@ fun main() {
     //MoreHashingExample4().execute()
     //HashingRansomNote().execute()
     //HashingJewelsAndStones().execute()
-    HashingLongestSubstringWithoutRepeatingCharacters().execute()
+    //HashingLongestSubstringWithoutRepeatingCharacters().execute()
+    LinkedListExample().execute()
 }
