@@ -1,4 +1,5 @@
 import problems.leetcode.das.linkedlist.LinkedListExample
+import problems.leetcode.das.linkedlist.LinkedListExample1
 
 fun main() {
     //ProblemTwoSums().execute()
@@ -40,5 +41,5 @@ fun main() {
     //HashingRansomNote().execute()
     //HashingJewelsAndStones().execute()
     //HashingLongestSubstringWithoutRepeatingCharacters().execute()
-    LinkedListExample().execute()
+    LinkedListExample1().execute()
 }
