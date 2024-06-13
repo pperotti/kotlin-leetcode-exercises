@@ -11,8 +11,8 @@ class LinkedListExample : Problem {
         two.next = three
         val head = one
 
-        System.out.println(head.value)
-        System.out.println(head.next?.value ?: 0)
-        System.out.println(head.next!!.next?.value ?: 0)
+        println(head.value)
+        println(head.next?.value ?: 0)
+        println(head.next?.next?.value ?: 0)
     }
 }

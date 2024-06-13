@@ -2,6 +2,14 @@ package problems.leetcode.das.linkedlist
 
 import problems.Problem
 
+/**
+ * Example 1: Given the head of a linked list with
+ * an odd number of nodes head, return the value
+ * of the node in the middle.
+ *
+ * For example, given a linked list that represents
+ * 1 -> 2 -> 3 -> 4 -> 5, return 3.
+ */
 class LinkedListExample1 : Problem {
     override fun execute() {
         var head : ListNode? = null
@@ -12,20 +20,19 @@ class LinkedListExample1 : Problem {
             if (head == null) {
                 head = item
             }
-            if (prev != null) {
-                prev?.next = item
-            }
+            prev?.next = item
             prev = item
         }
 
         // Print List
         printLinkedList(head)
+        println("Middle: ${getMiddle(head!!)}")
     }
 
     private fun getMiddle(head: ListNode): Int {
         var slow: ListNode? = head
         var fast: ListNode? = head
-        while (fast != null && fast.next != null) {
+        while (fast?.next != null) {
             slow = slow?.next
             fast = fast.next?.next
         }
