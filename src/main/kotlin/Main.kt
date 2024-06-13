@@ -1,5 +1,6 @@
 import problems.leetcode.das.linkedlist.LinkedListExample3
 import problems.leetcode.das.linkedlist.LinkedListMiddleElement
+import problems.leetcode.das.linkedlist.LinkedListRemoveDuplicates
 
 fun main() {
 //    ProblemTwoSums().execute()
@@ -43,6 +44,7 @@ fun main() {
 //    HashingLongestSubstringWithoutRepeatingCharacters().execute()
 //    LinkedListExample1().execute()
 //    LinkedListExample3().execute()
-    LinkedListMiddleElement().execute()
+//    LinkedListMiddleElement().execute()
+    LinkedListRemoveDuplicates().execute()
 }
 

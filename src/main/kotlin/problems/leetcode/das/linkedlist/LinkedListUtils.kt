@@ -74,6 +74,15 @@ fun printLinkedList2(head: ListNode2?) {
     }
 }
 
+fun printLinkedList3(head: ListNode3?) {
+    var current: ListNode3? = head
+    println("List Items:")
+    while (current != null) {
+        println("-> val: ${current.`val`} c: $current c.next: ${current.next}")
+        current = current.next
+    }
+}
+
 fun printLinkedList2Backwards(tail: ListNode2?) {
     var current: ListNode2? = tail
     println("List Items:")
