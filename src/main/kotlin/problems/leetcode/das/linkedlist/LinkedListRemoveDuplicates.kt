@@ -31,18 +31,14 @@ class LinkedListRemoveDuplicates : Problem {
 
         while (curr != null) {
 
-            println("-> head: $head head.next: ${head?.next}")
-            println("----> curr: $curr curr.next: ${curr?.next}")
-            println("----> last: $last last.next: ${last?.next}")
-
             // Skip repeated elements
             if (curr.`val` == last?.`val`) {
                 last.next = curr.next
-                println("bypassed!")
+            } else {
+                last = curr // Last is only updated if it has not been bypassed
             }
 
             // Update pointers
-            last = curr
             curr = curr.next
         }
 
