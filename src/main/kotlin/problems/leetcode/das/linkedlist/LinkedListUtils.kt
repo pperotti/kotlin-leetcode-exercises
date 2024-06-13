@@ -15,6 +15,10 @@ class ListNode2(inValue: Int) {
     var prev: ListNode2? = null
 }
 
+class ListNode3(var `val`: Int) {
+    var next: ListNode3? = null
+}
+
 /**
  * List class with certain methods
  */
