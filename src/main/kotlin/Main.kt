@@ -1,6 +1,7 @@
 import problems.leetcode.das.linkedlist.LinkedListExample3
 import problems.leetcode.das.linkedlist.LinkedListMiddleElement
 import problems.leetcode.das.linkedlist.LinkedListRemoveDuplicates
+import problems.leetcode.das.linkedlist.ReversingListExample1
 
 fun main() {
 //    ProblemTwoSums().execute()
@@ -45,6 +46,7 @@ fun main() {
 //    LinkedListExample1().execute()
 //    LinkedListExample3().execute()
 //    LinkedListMiddleElement().execute()
-    LinkedListRemoveDuplicates().execute()
+//    LinkedListRemoveDuplicates().execute()
+    ReversingListExample1().execute()
 }
 

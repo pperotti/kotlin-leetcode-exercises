@@ -60,7 +60,7 @@ fun printLinkedList(head: ListNode?) {
     var current: ListNode? = head
     println("List Items:")
     while (current != null) {
-        println("-> val: ${current.value}")
+        println("-> val: ${current.value} next: ${current?.next?.value}")
         current = current.next
     }
 }
