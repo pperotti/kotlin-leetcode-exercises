@@ -4,7 +4,7 @@ package problems.leetcode.das.linkedlist
  * This is a place where helper class are located for LinkedIn-related classes
  */
 class ListNode(inValue: Int) {
-    val value = inValue
+    var value = inValue
     var next: ListNode? = null
 }
 

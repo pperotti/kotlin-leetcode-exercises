@@ -1,6 +1,7 @@
 import problems.leetcode.das.linkedlist.LinkedListExample3
 import problems.leetcode.das.linkedlist.LinkedListMiddleElement
 import problems.leetcode.das.linkedlist.LinkedListRemoveDuplicates
+import problems.leetcode.das.linkedlist.LinkedListSwapNodesInPairs
 import problems.leetcode.das.linkedlist.ReversingListExample1
 
 fun main() {
@@ -47,6 +48,7 @@ fun main() {
 //    LinkedListExample3().execute()
 //    LinkedListMiddleElement().execute()
 //    LinkedListRemoveDuplicates().execute()
-    ReversingListExample1().execute()
+//    ReversingListExample1().execute()
+    LinkedListSwapNodesInPairs().execute()
 }
 
