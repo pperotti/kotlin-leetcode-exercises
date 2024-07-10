@@ -1,3 +1,4 @@
+import problems.leetcode.das.stacks.StacksBackspaceStringCompare
 import problems.leetcode.das.stacks.StacksRemoveAdjacentDuplicates
 
 fun main() {
@@ -48,6 +49,6 @@ fun main() {
 //    LinkedListSwapNodesInPairs().execute()
 //    ReverseLinkedListII().execute()
 //    StacksValidParentheses().execute()
-    StacksRemoveAdjacentDuplicates().execute()
+//    StacksRemoveAdjacentDuplicates().execute()
+    StacksBackspaceStringCompare().execute()
 }
-
