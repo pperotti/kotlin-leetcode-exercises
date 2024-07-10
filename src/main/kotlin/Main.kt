@@ -1,4 +1,4 @@
-import problems.leetcode.das.stacks.StacksValidParentheses
+import problems.leetcode.das.stacks.StacksRemoveAdjacentDuplicates
 
 fun main() {
 //    ProblemTwoSums().execute()
@@ -45,8 +45,9 @@ fun main() {
 //    LinkedListMiddleElement().execute()
 //    LinkedListRemoveDuplicates().execute()
 //    ReversingListExample1().execute()
-    //LinkedListSwapNodesInPairs().execute()
-    //ReverseLinkedListII().execute()
-    StacksValidParentheses().execute()
+//    LinkedListSwapNodesInPairs().execute()
+//    ReverseLinkedListII().execute()
+//    StacksValidParentheses().execute()
+    StacksRemoveAdjacentDuplicates().execute()
 }
 
