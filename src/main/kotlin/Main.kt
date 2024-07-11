@@ -1,5 +1,6 @@
 import problems.leetcode.das.stacks.StacksBackspaceStringCompare
 import problems.leetcode.das.stacks.StacksRemoveAdjacentDuplicates
+import problems.leetcode.das.stacks.StacksSimplifyPath
 
 fun main() {
 //    ProblemTwoSums().execute()
@@ -50,5 +51,6 @@ fun main() {
 //    ReverseLinkedListII().execute()
 //    StacksValidParentheses().execute()
 //    StacksRemoveAdjacentDuplicates().execute()
-    StacksBackspaceStringCompare().execute()
+//    StacksBackspaceStringCompare().execute()
+    StacksSimplifyPath().execute()
 }
