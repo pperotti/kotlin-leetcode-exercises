@@ -1,6 +1,4 @@
-import problems.leetcode.das.stacks.StacksBackspaceStringCompare
-import problems.leetcode.das.stacks.StacksRemoveAdjacentDuplicates
-import problems.leetcode.das.stacks.StacksSimplifyPath
+import problems.leetcode.das.queues.QueuesNumberOfRecentCalls
 
 fun main() {
 //    ProblemTwoSums().execute()
@@ -52,5 +50,8 @@ fun main() {
 //    StacksValidParentheses().execute()
 //    StacksRemoveAdjacentDuplicates().execute()
 //    StacksBackspaceStringCompare().execute()
-    StacksSimplifyPath().execute()
+//    StacksSimplifyPath().execute()
+//    StacksMakeStringsGreatAgain().execute()
+    QueuesNumberOfRecentCalls().execute()
 }
+
