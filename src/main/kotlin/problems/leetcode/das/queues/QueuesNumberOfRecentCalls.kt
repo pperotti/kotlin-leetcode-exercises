@@ -4,6 +4,7 @@ import problems.Problem
 
 /**
  * Example: 933. Number of Recent Calls
+ * https://leetcode.com/problems/number-of-recent-calls/submissions/1323403915/
  *
  * Implement the RecentCounter class. It should support ping(int t), which records a call at
  * time t, and then returns an integer representing the number of calls that have happened in
