@@ -1,3 +1,4 @@
+import problems.leetcode.das.queues.QueueMovingAverageFromDataStream
 import problems.leetcode.das.queues.QueuesNumberOfRecentCalls
 
 fun main() {
@@ -52,6 +53,8 @@ fun main() {
 //    StacksBackspaceStringCompare().execute()
 //    StacksSimplifyPath().execute()
 //    StacksMakeStringsGreatAgain().execute()
-    QueuesNumberOfRecentCalls().execute()
+//    QueuesNumberOfRecentCalls().execute()
+    QueueMovingAverageFromDataStream().execute()
 }
+
 
