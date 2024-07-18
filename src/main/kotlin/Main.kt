@@ -1,4 +1,5 @@
 import problems.leetcode.das.queues.QueueMovingAverageFromDataStream
+import problems.leetcode.das.queues.QueuesDailyTemperatures
 import problems.leetcode.das.queues.QueuesNumberOfRecentCalls
 
 fun main() {
@@ -54,7 +55,9 @@ fun main() {
 //    StacksSimplifyPath().execute()
 //    StacksMakeStringsGreatAgain().execute()
 //    QueuesNumberOfRecentCalls().execute()
-    QueueMovingAverageFromDataStream().execute()
+//    QueueMovingAverageFromDataStream().execute()
+    QueuesDailyTemperatures().execute()
 }
+
 
 
