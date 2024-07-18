@@ -61,7 +61,7 @@ fun readIntArrayContentsFromFile(source: String): IntArray {
         text.forEach {
             if (it == '[') {
                 contents.clear()
-            } else if (it == ',') {
+            } else if (it == ',' || it == ']') {
                 contents.add(sb.toString().toInt())
                 sb.clear()
             } else if (it.isDigit() || it == '-') {
