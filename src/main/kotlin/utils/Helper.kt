@@ -51,3 +51,27 @@ fun readContentsFromFile(): IntArray {
     }
     return contents.toIntArray()
 }
+
+fun readIntArrayContentsFromFile(source: String): IntArray {
+    val contents = mutableListOf<Int>()
+    val sb = StringBuilder()
+    val file = File(source)
+    try {
+        val text = file.readText()
+        text.forEach {
+            if (it == '[') {
+                contents.clear()
+            } else if (it == ',') {
+                contents.add(sb.toString().toInt())
+                sb.clear()
+            } else if (it.isDigit() || it == '-') {
+                sb.append(it)
+            }
+            //} else if (it == ']') {
+            // We should return here
+        }
+    } catch (e: Exception) {
+        e.printStackTrace()
+    }
+    return contents.toIntArray()
+}
