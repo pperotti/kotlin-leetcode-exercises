@@ -14,8 +14,8 @@ import java.util.Stack
  */
 class QueuesDailyTemperatures : Problem {
     override fun execute() {
-//        val temperatures = intArrayOf(73,74,75,71,69,72,76,73)
-        val temperatures = intArrayOf(30,40,50,60)
+        val temperatures = intArrayOf(73,74,75,71,69,72,76,73)
+//        val temperatures = intArrayOf(30,40,50,60)
 //        val temperatures = intArrayOf(30,60,90)
         println("Input: ${temperatures.contentToString()}")
         println("Output: ${dailyTemperatures(temperatures).contentToString()}")
@@ -35,7 +35,6 @@ class QueuesDailyTemperatures : Problem {
         }
         return answers
     }
-
 
 //    private fun dailyTemperatures(temperatures: IntArray): IntArray {
 //        val answers = IntArray(temperatures.size)
