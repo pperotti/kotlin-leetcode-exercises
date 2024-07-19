@@ -34,39 +34,30 @@ class QueuesSlidingWindowMaximum : Problem {
 
     private fun maxSlidingWindow(nums: IntArray, k: Int): IntArray {
         val answers = IntArray(nums.size - k + 1)
-        val queue = MyWindowedQueue(k)
+        // The monotonic queue will store the indices in of the elements instead of the values
+        val monotonicQueue = ArrayDeque<Int>()
 
-        for (index in nums.size - 1 downTo 0) {
-            queue.add(nums[index])
-            if (index < answers.size) {
-                answers[index] = queue.queueMax
+        for (index in nums.indices) {
+            // Remove elements that are smaller than the first one in the monotonicQueue
+            while (monotonicQueue.isNotEmpty() && nums[index] > nums[monotonicQueue.last()]) {
+                monotonicQueue.removeLast()
+            }
+
+            // Add element to the queue
+            monotonicQueue.addLast(index)
+
+            // queue[0] is the index of the maximum element.
+            // if queue[0] + k == i, then it is outside the window
+            if (monotonicQueue.first() + k == index) {
+                monotonicQueue.removeFirst()
+            }
+
+            // Add the answer once window has reach size k
+            if (index >= k - 1) {
+                answers[index - k + 1] = nums[monotonicQueue.first()]
             }
         }
 
         return answers
-    }
-}
-
-/**
- * This queue keep track of the max value of the window and recalculate it while it rotates
- */
-class MyWindowedQueue(val windowSize: Int) {
-
-    val queue = ArrayDeque<Int>(initialCapacity = windowSize)
-    var queueMax = 0
-
-    fun size() = queue.size
-
-    fun add(value: Int) {
-        queue.addFirst(value)
-        //println("---> add: $value - queue.size: ${queue.size} - windowSize: $windowSize queue: ${queue}")
-        if (queue.size > windowSize) {
-            queue.removeLast()
-            queueMax = queue.max()
-            //println("---------> queueMax: $queueMax queue: $queue")
-        } else if (queue.size == windowSize) {
-            queueMax = queue.max()
-            //println("---------> queueMax: $queueMax")
-        }
     }
 }
