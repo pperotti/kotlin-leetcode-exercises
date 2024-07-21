@@ -10,7 +10,7 @@ import problems.Problem
  * MovingAverage(int size) Initializes the object with the size of the window size.
  * double next(int val) Returns the moving average of the last size values of the stream.
  */
-class QueueMovingAverageFromDataStream : Problem {
+class QueuesMovingAverageFromDataStream : Problem {
     override fun execute() {
         val movingAverage = MovingAverage(3)
         println("next(1) -> ${movingAverage.next(1)}") // return 1.0 = 1 / 1
