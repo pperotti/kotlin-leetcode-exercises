@@ -1,5 +1,6 @@
 import problems.leetcode.das.queues.QueueMovingAverageFromDataStream
 import problems.leetcode.das.queues.QueuesDailyTemperatures
+import problems.leetcode.das.queues.QueuesLongestContinuousSubarray
 import problems.leetcode.das.queues.QueuesNumberOfRecentCalls
 import problems.leetcode.das.queues.QueuesSlidingWindowMaximum
 
@@ -58,7 +59,8 @@ fun main() {
 //    QueuesNumberOfRecentCalls().execute()
 //    QueueMovingAverageFromDataStream().execute()
 //    QueuesDailyTemperatures().execute()
-    QueuesSlidingWindowMaximum().execute()
+//    QueuesSlidingWindowMaximum().execute()
+    QueuesLongestContinuousSubarray().execute()
 }
 
 
