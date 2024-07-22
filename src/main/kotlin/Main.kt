@@ -1,4 +1,5 @@
 import problems.leetcode.das.queues.QueuesLongestContinuousSubarray
+import problems.leetcode.das.queues.QueuesNextGreaterElementI
 
 fun main() {
 //    ProblemTwoSums().execute()
@@ -56,7 +57,8 @@ fun main() {
 //    QueueMovingAverageFromDataStream().execute()
 //    QueuesDailyTemperatures().execute()
 //    QueuesSlidingWindowMaximum().execute()
-    QueuesLongestContinuousSubarray().execute()
+//    QueuesLongestContinuousSubarray().execute()
+    QueuesNextGreaterElementI().execute()
 }
 
 
