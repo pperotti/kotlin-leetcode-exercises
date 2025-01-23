@@ -1,3 +1,4 @@
+import problems.leetcode.mtci.ProblemLruCache
 import problems.leetcode.mtci.ProblemMTW
 
 fun main() {
@@ -59,7 +60,8 @@ fun main() {
 //    QueuesLongestContinuousSubarray().execute()
 //    QueuesNextGreaterElementI().execute()
 //    QueuesOnlineStockSpan().execute()
-    ProblemMTW().execute()
+//    ProblemMTW().execute()
+      ProblemLruCache().execute()
 }
 
 
