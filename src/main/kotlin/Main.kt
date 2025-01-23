@@ -1,6 +1,4 @@
-import problems.leetcode.das.queues.QueuesLongestContinuousSubarray
-import problems.leetcode.das.queues.QueuesNextGreaterElementI
-import problems.leetcode.das.queues.QueuesOnlineStockSpan
+import problems.leetcode.mtci.ProblemMTW
 
 fun main() {
 //    ProblemTwoSums().execute()
@@ -60,7 +58,8 @@ fun main() {
 //    QueuesSlidingWindowMaximum().execute()
 //    QueuesLongestContinuousSubarray().execute()
 //    QueuesNextGreaterElementI().execute()
-    QueuesOnlineStockSpan().execute()
+//    QueuesOnlineStockSpan().execute()
+    ProblemMTW().execute()
 }
 
 
