@@ -1,3 +1,4 @@
+import problems.leetcode.das.trees.DepthFirstSearchExample
 import problems.leetcode.mtci.ProblemLruCache
 import problems.leetcode.mtci.ProblemMTW
 
@@ -61,7 +62,8 @@ fun main() {
 //    QueuesNextGreaterElementI().execute()
 //    QueuesOnlineStockSpan().execute()
 //    ProblemMTW().execute()
-      ProblemLruCache().execute()
+//    ProblemLruCache().execute()
+      DepthFirstSearchExample().execute()
 }
 
 
