@@ -1,6 +1,4 @@
-import problems.leetcode.das.trees.DepthFirstSearchExample
-import problems.leetcode.mtci.ProblemLruCache
-import problems.leetcode.mtci.ProblemMTW
+import problems.leetcode.das.trees.MaximumDepthBinaryTree
 
 fun main() {
 //    ProblemTwoSums().execute()
@@ -63,8 +61,6 @@ fun main() {
 //    QueuesOnlineStockSpan().execute()
 //    ProblemMTW().execute()
 //    ProblemLruCache().execute()
-      DepthFirstSearchExample().execute()
+//    DepthFirstSearchExample().execute()
+    MaximumDepthBinaryTree().execute()
 }
-
-
-
