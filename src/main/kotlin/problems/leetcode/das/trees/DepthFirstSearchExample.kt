@@ -29,7 +29,7 @@ class DepthFirstSearchExample : Problem {
         postOrderTraverse(root)
     }
 
-    private fun preOrderTraverse(node: TreeNode?) {
+    fun preOrderTraverse(node: TreeNode?) {
         if (node == null) {
             return
         }
@@ -44,7 +44,7 @@ class DepthFirstSearchExample : Problem {
         preOrderTraverse(node.right)
     }
 
-    private fun inOrderTraverse(node: TreeNode?) {
+    fun inOrderTraverse(node: TreeNode?) {
         if (node == null) {
             return
         }
@@ -59,7 +59,7 @@ class DepthFirstSearchExample : Problem {
         inOrderTraverse(node.right)
     }
 
-    private fun postOrderTraverse(node: TreeNode?) {
+    fun postOrderTraverse(node: TreeNode?) {
         if (node == null) {
             return
         }

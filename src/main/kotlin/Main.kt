@@ -1,4 +1,4 @@
-import problems.leetcode.das.trees.MaximumDepthBinaryTree
+import problems.leetcode.das.trees.PathSum
 
 fun main() {
 //    ProblemTwoSums().execute()
@@ -62,5 +62,6 @@ fun main() {
 //    ProblemMTW().execute()
 //    ProblemLruCache().execute()
 //    DepthFirstSearchExample().execute()
-    MaximumDepthBinaryTree().execute()
+//    MaximumDepthBinaryTree().execute()
+    PathSum().execute()
 }
