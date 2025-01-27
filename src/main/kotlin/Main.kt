@@ -1,3 +1,4 @@
+import problems.leetcode.das.trees.CountGoodNodesInBinaryTree
 import problems.leetcode.das.trees.PathSum
 
 fun main() {
@@ -63,5 +64,6 @@ fun main() {
 //    ProblemLruCache().execute()
 //    DepthFirstSearchExample().execute()
 //    MaximumDepthBinaryTree().execute()
-    PathSum().execute()
+//    PathSum().execute()
+      CountGoodNodesInBinaryTree().execute()
 }
