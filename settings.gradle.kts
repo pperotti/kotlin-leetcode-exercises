@@ -1,3 +1,2 @@
 
-rootProject.name = "AlgoSamples"
-
+rootProject.name = "Kotlin Leetcode Exercises"
