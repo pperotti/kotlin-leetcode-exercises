@@ -1,12 +1,12 @@
 package problems
 
 /**
- * Represents a traditional interview problem and its solution.
+ * Represents a coding problem. Each solution must implement this interface. This interface follows the GoF's Command pattern.
  */
 interface Problem {
 
     /**
-     * Method that execute the solution to a given problem.
+     * Executes the solution
      */
     fun execute()
 }

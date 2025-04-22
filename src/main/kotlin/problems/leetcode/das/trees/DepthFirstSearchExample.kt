@@ -26,51 +26,6 @@ class DepthFirstSearchExample : Problem {
         // Traverse
         //preOrderTraverse(root)
         //inOrderTraverse(root)
-        postOrderTraverse(root)
-    }
-
-    fun preOrderTraverse(node: TreeNode?) {
-        if (node == null) {
-            return
-        }
-
-        // Do something with the value
-        println("Value: ${node.value}")
-
-        // Traverse left side
-        preOrderTraverse(node.left)
-
-        // Traverse right side
-        preOrderTraverse(node.right)
-    }
-
-    fun inOrderTraverse(node: TreeNode?) {
-        if (node == null) {
-            return
-        }
-
-        // Traverse left side
-        inOrderTraverse(node.left)
-
-        // Do something with the value
-        println("Value: ${node.value}")
-
-        // Traverse right side
-        inOrderTraverse(node.right)
-    }
-
-    fun postOrderTraverse(node: TreeNode?) {
-        if (node == null) {
-            return
-        }
-
-        // Traverse left side
-        postOrderTraverse(node.left)
-
-        // Do something with the value
-        println("Value: ${node.value}")
-
-        // Traverse right side
-        postOrderTraverse(node.right)
+        //postOrderTraverse(root)
     }
 }

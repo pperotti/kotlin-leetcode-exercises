@@ -58,7 +58,7 @@ class CountGoodNodesInBinaryTree : Problem {
 
         val rootNode = node2
 
-        DepthFirstSearchExample().preOrderTraverse(rootNode)
+        //DepthFirstSearchExample().preOrderTraverse(rootNode)
 
         val count = goodNodes(rootNode)
         println("Count: $count")
