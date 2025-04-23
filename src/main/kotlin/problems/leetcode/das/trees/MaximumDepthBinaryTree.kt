@@ -18,47 +18,14 @@ import kotlin.math.max
  * Input: root = [1,null,2]
  * Output: 2
  */
-class MaximumDepthBinaryTree : Problem {
+class MaximumDepthBinaryTree {
 
-    override fun execute() {
-        //example1()
-        //example2()
-        example3()
-    }
-
-    private fun maxDepth(root: TreeNode?): Int {
+    fun maxDepth(root: TreeNode?): Int {
         if (root == null) {
             return 0
         }
         val left = maxDepth(root.left)
         val right = maxDepth(root.right)
         return max(left, right) + 1
-    }
-
-    // Input: root = [3,9,20,null,null,15,7]
-    private fun example1() {
-        val root = TreeNode(3)
-        root.left = TreeNode(9)
-        root.right = TreeNode(20)
-        root.right?.left = TreeNode(15)
-        root.right?.right = TreeNode(7)
-
-        println("Depth: ${maxDepth(root)}")
-    }
-
-    // Input: root = [1,null,2]
-    private fun example2() {
-        val root = TreeNode(1)
-        root.right = TreeNode(2)
-
-        println("Depth: ${maxDepth(root)}")
-    }
-
-    // Input: root = [1]
-    private fun example3() {
-        val root = TreeNode(1)
-
-        println("Depth: ${maxDepth(root)}")
-
     }
 }
