@@ -1,13 +1,14 @@
 package problems.leetcode.das.trees
 
 import org.junit.jupiter.api.Assertions
+import kotlin.test.Test
 
 class CountGoodNodesInBinaryTreeTest {
 
     // Subject to test
     val problemToTest = CountGoodNodesInBinaryTree()
 
-    @org.junit.jupiter.api.Test
+    @Test
     fun testScenario1() {
         // Given - Input: [3,1,4,3,null,1,5]
         val rootNode = TreeNode(3)
@@ -29,7 +30,7 @@ class CountGoodNodesInBinaryTreeTest {
         Assertions.assertEquals(4, result)
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     fun testScenario2() {
         // Given - input: [2,null,4,10,8,null,null,4]
         val node2 = TreeNode(2)
@@ -53,7 +54,7 @@ class CountGoodNodesInBinaryTreeTest {
         Assertions.assertEquals(4, result)
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     fun testScenario3() {
         // Given - Input: [9,null,3,6]
         val rootNode = TreeNode(9)

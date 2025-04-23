@@ -1,9 +1,7 @@
 package problems.leetcode.das.trees
 
-import problems.Problem
-
 /**
- * 1448. Count Good Nodes in Binary Tree
+ * Leetcode Problem: 1448. Count Good Nodes in Binary Tree
  * URL: https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/
  *
  * Given a binary tree root, a node X in the tree is named good
@@ -29,7 +27,7 @@ class CountGoodNodesInBinaryTree {
         val result = Result(0)
 
         // Start iterating finding
-        findGoodNodes(root, result, root.value)
+        findGoodNodes(root, result, root.`val`)
 
         return result.goodNodesCount
     }
@@ -39,7 +37,7 @@ class CountGoodNodesInBinaryTree {
             return
         }
 
-        val currValue = node.value
+        val currValue = node.`val`
 
         // Compare current value with the previous one
         if (maxElement <= currValue) {

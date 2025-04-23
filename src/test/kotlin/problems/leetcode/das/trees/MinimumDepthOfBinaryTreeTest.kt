@@ -2,6 +2,7 @@ package problems.leetcode.das.trees
 
 import org.junit.jupiter.api.Assertions
 import utils.dfsPreOrderTraverse
+import kotlin.test.Test
 
 class MinimumDepthOfBinaryTreeTest {
 
@@ -13,7 +14,7 @@ class MinimumDepthOfBinaryTreeTest {
      * When: minDepth(root)
      * Then: output == 2
      */
-    @org.junit.jupiter.api.Test
+    @Test
     fun testScenario1() {
 
         // Given
@@ -44,7 +45,7 @@ class MinimumDepthOfBinaryTreeTest {
      * When executing: minDepth(root)
      * Then the output should be 5.
      */
-    @org.junit.jupiter.api.Test
+    @Test
     fun testScenario2() {
         // Given
         val rootNode = TreeNode(2)

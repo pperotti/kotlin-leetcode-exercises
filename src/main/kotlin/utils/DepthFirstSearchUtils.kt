@@ -14,8 +14,8 @@ fun dfsPreOrderTraverse(node: TreeNode?, results: ArrayList<Int>) {
     }
 
     // Do something with the value
-    println("Value: ${node.value}")
-    results.add(node.value)
+    println("Value: ${node.`val`}")
+    results.add(node.`val`)
 
     // Traverse left side
     dfsPreOrderTraverse(node.left, results)
@@ -39,8 +39,8 @@ fun dfsInOrderTraverse(node: TreeNode?, results: ArrayList<Int>) {
     dfsInOrderTraverse(node.left, results)
 
     // Do something with the value
-    println("Value: ${node.value}")
-    results.add(node.value)
+    println("Value: ${node.`val`}")
+    results.add(node.`val`)
 
     // Traverse right side
     dfsInOrderTraverse(node.right, results)
@@ -64,6 +64,6 @@ fun dfsPostOrderTraverse(node: TreeNode?, results: ArrayList<Int>) {
     dfsPostOrderTraverse(node.right, results)
 
     // Do something with the value
-    println("Value: ${node.value}")
-    results.add(node.value)
+    println("Value: ${node.`val`}")
+    results.add(node.`val`)
 }

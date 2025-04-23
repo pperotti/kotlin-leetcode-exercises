@@ -1,13 +1,14 @@
 package problems.leetcode.das.trees
 
 import org.junit.jupiter.api.Assertions
+import kotlin.test.Test
 
 class MaximumDepthBinaryTreeTest {
 
     // Subject to test
     val problemToTest = MaximumDepthBinaryTree()
 
-    @org.junit.jupiter.api.Test
+    @Test
     fun testScenario1() {
         // Given - root = [3,9,20,null,null,15,7]
         val root = TreeNode(3)
@@ -23,7 +24,7 @@ class MaximumDepthBinaryTreeTest {
         Assertions.assertEquals(3, result)
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     fun testScenario2() {
         // Given - root = [1,null,2]
         val root = TreeNode(1)
@@ -36,7 +37,7 @@ class MaximumDepthBinaryTreeTest {
         Assertions.assertEquals(2, result)
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     fun testScenario3() {
         // Given - root = [1]
         val root = TreeNode(1)

@@ -3,7 +3,7 @@ package problems.leetcode.das.trees
 import kotlin.math.max
 
 /**
- * Problem Name: 104. Maximum Depth of Binary Tree
+ * Lettcode Problem: 104. Maximum Depth of Binary Tree
  * URL: https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
  *
  * Given the root of a binary tree, return its maximum depth.

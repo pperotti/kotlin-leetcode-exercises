@@ -1,7 +1,7 @@
 package problems.leetcode.das.trees
 
 import org.junit.jupiter.api.Assertions
-import org.junit.jupiter.api.Test
+import kotlin.test.Test
 
 class PathSumTest {
 

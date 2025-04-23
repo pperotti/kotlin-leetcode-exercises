@@ -26,19 +26,19 @@ class MaximumDifferenceBetweenNodeAndAncestor {
             return max - min
         }
 
-        println("node: ${node.value} -> max: $max min: $min")
+        println("node: ${node.`val`} -> max: $max min: $min")
 
-        val newMax = max(max, node.value)
-        val newMin = if (min != -1 && min < node.value) {
+        val newMax = max(max, node.`val`)
+        val newMin = if (min != -1 && min < node.`val`) {
             min
         } else {
-            node.value
+            node.`val`
         }
 
         val left = findMaxDiff(node.left, newMax, newMin)
         val right = findMaxDiff(node.right, newMax, newMin)
 
-        println("-----> after: ${node.value} -> left: $left right: $right")
+        println("-----> after: ${node.`val`} -> left: $left right: $right")
 
         return max(left, right)
     }

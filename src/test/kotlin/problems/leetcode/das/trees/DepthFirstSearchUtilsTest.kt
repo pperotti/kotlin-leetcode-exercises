@@ -1,9 +1,11 @@
 package problems.leetcode.das.trees
 
 import org.junit.jupiter.api.Assertions
+import org.junit.jupiter.api.BeforeEach
 import utils.dfsInOrderTraverse
 import utils.dfsPostOrderTraverse
 import utils.dfsPreOrderTraverse
+import kotlin.test.Test
 
 /**
  * Run the test cases associated with DFS
@@ -12,7 +14,7 @@ class DepthFirstSearchUtilsTest {
 
     var root: TreeNode? = null
 
-    @org.junit.jupiter.api.BeforeEach
+    @BeforeEach
     fun setup() {
 
         /*
@@ -34,7 +36,7 @@ class DepthFirstSearchUtilsTest {
         root?.right = t2
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     fun testPreOrderScenario1() {
 
         // Given
@@ -49,7 +51,7 @@ class DepthFirstSearchUtilsTest {
         Assertions.assertArrayEquals(expected, results.toIntArray())
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     fun testInOrderScenario1() {
 
         // Given
@@ -64,7 +66,7 @@ class DepthFirstSearchUtilsTest {
         Assertions.assertArrayEquals(expected, results.toIntArray())
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     fun testPostOrderScenario1() {
 
         // Given

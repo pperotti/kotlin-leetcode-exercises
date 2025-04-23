@@ -21,7 +21,7 @@ class PathSum {
             return false
         }
 
-        val newAccumValue = accumValue + node.value
+        val newAccumValue = accumValue + node.`val`
 
         return if (newAccumValue == targetSum
             && node.left == null
