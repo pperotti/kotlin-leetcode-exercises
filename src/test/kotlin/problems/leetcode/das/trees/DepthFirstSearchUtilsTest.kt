@@ -5,6 +5,9 @@ import utils.dfsInOrderTraverse
 import utils.dfsPostOrderTraverse
 import utils.dfsPreOrderTraverse
 
+/**
+ * Run the test cases associated with DFS
+ */
 class DepthFirstSearchUtilsTest {
 
     var root: TreeNode? = null

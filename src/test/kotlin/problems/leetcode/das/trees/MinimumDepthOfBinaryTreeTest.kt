@@ -28,13 +28,15 @@ class MinimumDepthOfBinaryTreeTest {
         node20.left = node15
         node20.right = node7
 
-        //dfsPreOrderTraverse(rootNode)
+        val results = ArrayList<Int>()
+        dfsPreOrderTraverse(rootNode, results)
 
         // When
         val output = problemToTest.minDepth(rootNode)
 
         // Then
         Assertions.assertEquals(2, output)
+        Assertions.assertArrayEquals(intArrayOf(3,9,20,15,7), results.toIntArray())
     }
 
     /**
@@ -58,12 +60,14 @@ class MinimumDepthOfBinaryTreeTest {
         val node6 = TreeNode(6)
         node5.right = node6
 
-        //dfsPreOrderTraverse(rootNode)
+        val results = ArrayList<Int>()
+        dfsPreOrderTraverse(rootNode, results)
 
         // When
         val output = problemToTest.minDepth(rootNode)
 
         // Then
         Assertions.assertEquals(5, output)
+        Assertions.assertArrayEquals(intArrayOf(2,3,4,5,6), results.toIntArray())
     }
 }
