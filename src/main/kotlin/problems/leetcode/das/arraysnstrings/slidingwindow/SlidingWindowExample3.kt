@@ -2,9 +2,10 @@ package problems.leetcode.das.arraysnstrings.slidingwindow
 
 /**
  * Example 3: 713. Subarray Product Less Than K.
+ * URL:
  *
  * Given an array of positive integers nums and an integer k,
- * return the number of subarrays where the product of all
+ * return the NUMBER OF SUBARRAYS where the product of all
  * the elements in the subarray is strictly less than k.
  *
  * For example, given the input:

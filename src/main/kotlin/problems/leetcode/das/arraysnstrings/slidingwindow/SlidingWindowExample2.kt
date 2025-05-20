@@ -15,7 +15,7 @@ package problems.leetcode.das.arraysnstrings.slidingwindow
 class SlidingWindowExample2 {
 
     /*
-    this problem runs in O(n) time, where n is the length of s,
+    This problem runs in O(n) time, where n is the length of s,
     as the work done in each loop iteration is amortized constant.
     Only a few integer variables are used as well, which means
     this algorithm uses O(1) space.
@@ -23,21 +23,22 @@ class SlidingWindowExample2 {
     fun findLength(s: String): Int {
         var left = 0
         var curr = 0 // How many '0' we have in the string
-        var ans = 0
+        var answer = 0
 
         for (right in 0..s.length-1) {
             if (s.elementAt(right) == '0') {
                 curr++
             }
             while (curr > 1) {
+                // Shift the left index and review amount of '0' if we have already shifted 1 zero.
                 if (s.elementAt(left) == '0') {
                     curr--
                 }
                 left++
             }
-            ans = Math.max(ans, right-left+1)
+            answer = Math.max(answer, right-left+1)
         }
 
-        return ans
+        return answer
     }
 }

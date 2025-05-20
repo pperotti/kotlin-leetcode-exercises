@@ -6,7 +6,7 @@ import kotlin.test.assertEquals
 /**
  * Sliding window example2 test
  *
- * @constructor Create empty Sliding window example2test
+ * @constructor Create empty Sliding window example2 test
  */
 class SlidingWindowExample2Test {
 
