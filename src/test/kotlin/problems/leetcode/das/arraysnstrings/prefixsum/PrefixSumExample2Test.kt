@@ -3,6 +3,11 @@ package problems.leetcode.das.arraysnstrings.prefixsum
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
+/**
+ * Test for "prefix sum example 2"
+ *
+ * @constructor Create empty Prefix sum example2 test
+ */
 class PrefixSumExample2Test {
 
     val subject = PrefixSumExample2()

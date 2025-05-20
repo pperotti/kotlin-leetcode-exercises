@@ -4,7 +4,7 @@ import kotlin.test.Test
 import kotlin.test.assertContentEquals
 
 /**
- * Prefix sum example1 test
+ * Test for "prefix sum example 1 test"
  *
  * @constructor Create empty Prefix sum example1 test
  */

@@ -4,7 +4,7 @@ package problems.leetcode.das.arraysnstrings.prefixsum
  * This is Example1 shown in Prefix Sum lesson.
  * URL:
  *
- * Given an integer array nums, an array queries where queries[i] = [x, y] and
+ * Given an integer array nums, an array queries where queries[ i ] = [x, y] and
  * an integer limit, return a boolean array that represents the answer to each query.
  * A query is true if the sum of the subarray from x to y is less than limit, or
  * false otherwise.
